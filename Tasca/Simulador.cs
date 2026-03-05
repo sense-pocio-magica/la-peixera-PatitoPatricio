@@ -295,9 +295,6 @@ public class Simulador
             }
         }
 
-        // =========================
-        // MOSTRAR ESTAT PER RONDA
-        // =========================
         public void MostraResultatsRonda(int ronda)
         {
             int peixos = 0, taurons = 0, pops = 0, tortugues = 0;
@@ -362,9 +359,6 @@ public class Simulador
             Console.WriteLine("Tortugues: " + tortugues + " (M " + tortuguesM + ", F " + tortuguesF + ")");
         }
 
-        // =========================
-        // ALEATORIS
-        // =========================
         private Posicio PosicioAleatoria()
         {
             int x = _random.Next(0, _peixera.Amplada);
